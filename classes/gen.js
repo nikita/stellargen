@@ -47,7 +47,7 @@ const generateProxy = (country, sticky) => {
 
     if (sticky) STELLAR_PROXY_PASSWORD += `_session-${randomSession()}`;
 
-    return `${protocol}://${proxyHostname}:${port}:${STELLAR_PROXY_USERNAME}:${STELLAR_PROXY_PASSWORD}`;
+    return `${proxyHostname}:${port}:${STELLAR_PROXY_USERNAME}:${STELLAR_PROXY_PASSWORD}`;
   } else {
     return false;
   }
