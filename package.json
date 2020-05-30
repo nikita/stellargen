@@ -1,0 +1,16 @@
+{
+  "name": "stellargen",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index"
+  },
+  "keywords": [],
+  "author": "никита",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
